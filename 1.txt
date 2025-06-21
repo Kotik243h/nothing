@@ -1,0 +1,171 @@
+основные файлы:
+build.gradle:
+plugins {
+	// loom plugin
+    id 'fabric-loom' version "${loom_version}"
+    // legacy looming (loom plugin improvements)
+    id 'legacy-looming' version "${loom_version}"
+    id 'com.palantir.git-version' version '3.1.0'
+    id 'com.diffplug.spotless' version '7.0.3'
+}
+
+
+// set basic properties
+def hash = ""
+if(project.release=="false") {
+	hash = "-SNAPSHOT_"+versionDetails().gitHash.substring(0,7)
+}
+version = project.version+hash
+group = project.group
+
+java {
+	// compile for java 8
+	sourceCompatibility = targetCompatibility = 8
+}
+
+loom {
+	// set access widener
+	accessWidenerPath = file('src/main/resources/tasmod.accesswidener')
+	// add log4jconfig
+	log4jConfigs.from(file('src/main/resources/log4j.xml'))
+}
+
+// dependency repositories
+repositories {
+    mavenCentral()
+    maven { url = 'https://raw.githubusercontent.com/BleachDev/cursed-mappings/main/' }
+    maven { url = "https://jitpack.io" }
+    maven { url = "https://maven.mgnet.work/main" }
+    maven { url = 'https://repo.spongepowered.org/maven' }
+}
+
+// dependency configurations
+configurations {
+	// non-transitive download mod dependency
+    downloadMod.transitive = false
+    // embed dependency included in build
+    implementation.extendsFrom(embed)
+}
+
+// dependencies
+dependencies {
+    // tasmod dependencies
+    embed group: 'com.dselent', name: 'bigarraylist', version: '1.1'
+    //compileOnly group: 'com.minecrafttas', name: 'killtherng', version: '2.0'
+    //downloadMod group: 'com.minecrafttas', name: 'killtherng-full', version: '2.0' // for downloadKTRNG task
+
+	// loom dependencies
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.legacyfabric:yarn:${project.minecraft_version}+build.mcp"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+}
+
+// task for downloading KillTheRng
+//task downloadKTRNG(type: Copy) {
+	//group 'tasmod'
+	//description 'Download KillTheRNG to the run/mods/ folder of the project'
+    //from configurations.downloadMod
+    //into 'run/mods/'
+//}
+
+compileJava {
+	options.release = 8
+}
+
+// process fabric mod json
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft_version
+    
+    filesMatching("fabric.mod.json") {
+        expand 'mod_url': project.mod_url, 'name': project.mod_name, 'mod_version': project.version, 'mod_description': project.mod_description, 'mod_sources': project.mod_sources, 'mod_email': project.mod_email
+    }
+}
+
+// configure jar file
+jar {
+	archivesBaseName = project.artifact
+
+	// pack embedded stuff
+	from {
+		configurations.embed.collect { it.isDirectory() ? it : zipTree(it) }
+    } {
+        exclude "LICENSE.txt", "META-INF/MANIFSET.MF", "META-INF/maven/**", "META-INF/*.RSA", "META-INF/*.SF"
+    }
+}
+
+// configure testing
+tasks.named('test', Test) {
+    useJUnitPlatform()
+
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
+}
+
+spotless {
+  encoding 'UTF-8'
+  lineEndings 'UNIX'
+  java {
+  	importOrderFile('formatter/TASmodImportorder.txt')
+  	eclipse().configFile('formatter/TASmodFormatter.xml')
+  }
+  enforceCheck false
+}
+settings.gradle:
+// configure plugin management
+pluginManagement {
+    // add repositories for plugins
+    repositories {
+        maven { url = 'https://maven.mgnet.work/main' }
+        maven { url = 'https://maven.fabricmc.net/' }
+        maven { url = 'https://repo.legacyfabric.net/repository/legacyfabric/' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+src/main/resources/fabric.mod.json:
+{
+	"schemaVersion": 1,
+	"id": "tasmod",
+	"version": "${mod_version}",
+	"name": "${name}",
+	"description": "${mod_description}",
+	"authors": ["Scribble", "Pancake"],
+	"contributors": ["tr7zw", "cittyinthecloud"],
+	"contact": {
+		"homepage": "${mod_url}",
+		"sources": "${mod_sources}",
+		"issues": "${mod_sources}/issues",
+		"email": "${mod_email}"
+	},
+
+	"license": "GPLv3",
+	"accessWidener": "tasmod.accesswidener",
+	"icon": "assets/tasmod/textures/potion.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.minecrafttas.tasmod.TASmod"
+		],
+		"client": [ 
+			"com.minecrafttas.tasmod.TASmodClient"
+		]
+	},
+	"mixins": [
+		"tasmod.mixin.json",
+		"mctcommon.mixin.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "1.12.2",
+		"java": ">=8"
+	},
+	"custom": {
+		"mc-publish": {
+			"modrinth": "g0TxtOPk",
+			"curseforge": "434702"
+		}
+	}
+}
