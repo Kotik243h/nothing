@@ -1,0 +1,1302 @@
+Структура папок
+Серийный номер тома: 428B-ABE6
+C:.
+¦   .gitattributes
+¦   .gitignore
+¦   build.gradle
+¦   CONTRIBUTING.md
+¦   gradle.properties
+¦   gradlew
+¦   gradlew.bat
+¦   LICENSE
+¦   README.md
+¦   settings.gradle
+¦   structureeee.txt
+¦   
++---.github
+¦   ¦   FUNDING.yml
+¦   ¦   
+¦   L---workflows
+¦           build.yml
+¦           buildandupload.yml
+¦           check_formatting.yml
+¦           release.yml
+¦           test_report.yml
+¦           
++---.gradle
+¦   ¦   file-system.probe
+¦   ¦   
+¦   +---8.13
+¦   ¦   ¦   gc.properties
+¦   ¦   ¦   
+¦   ¦   +---checksums
+¦   ¦   ¦       checksums.lock
+¦   ¦   ¦       md5-checksums.bin
+¦   ¦   ¦       sha1-checksums.bin
+¦   ¦   ¦       
+¦   ¦   +---executionHistory
+¦   ¦   ¦       executionHistory.bin
+¦   ¦   ¦       executionHistory.lock
+¦   ¦   ¦       
+¦   ¦   +---expanded
+¦   ¦   ¦       expanded.lock
+¦   ¦   ¦       
+¦   ¦   +---fileChanges
+¦   ¦   ¦       last-build.bin
+¦   ¦   ¦       
+¦   ¦   +---fileHashes
+¦   ¦   ¦       fileHashes.bin
+¦   ¦   ¦       fileHashes.lock
+¦   ¦   ¦       resourceHashesCache.bin
+¦   ¦   ¦       
+¦   ¦   L---vcsMetadata
+¦   +---buildOutputCleanup
+¦   ¦       buildOutputCleanup.lock
+¦   ¦       cache.properties
+¦   ¦       outputFiles.bin
+¦   ¦       
+¦   +---loom-cache
+¦   ¦   +---minecraftMaven
+¦   ¦   ¦   L---net
+¦   ¦   ¦       L---minecraft
+¦   ¦   ¦           L---minecraft-merged-fb00f73734
+¦   ¦   ¦               L---1.12.2-net.legacyfabric.yarn.1_12_2.1.12.2+build.mcp
+¦   ¦   ¦                       minecraft-merged-fb00f73734-1.12.2-net.legacyfabric.yarn.1_12_2.1.12.2+build.mcp-sources.jar
+¦   ¦   ¦                       minecraft-merged-fb00f73734-1.12.2-net.legacyfabric.yarn.1_12_2.1.12.2+build.mcp.jar
+¦   ¦   ¦                       minecraft-merged-fb00f73734-1.12.2-net.legacyfabric.yarn.1_12_2.1.12.2+build.mcp.jar.backup
+¦   ¦   ¦                       minecraft-merged-fb00f73734-1.12.2-net.legacyfabric.yarn.1_12_2.1.12.2+build.mcp.jar.backup.linemap.txt
+¦   ¦   ¦                       minecraft-merged-fb00f73734-1.12.2-net.legacyfabric.yarn.1_12_2.1.12.2+build.mcp.pom
+¦   ¦   ¦                       
+¦   ¦   +---remapped_mods
+¦   ¦   L---source_mappings
+¦   ¦           fb00f7373482720082ecab82e9914df8fcfbefee.tiny
+¦   ¦           
+¦   L---vcs-1
+¦           gc.properties
+¦           
++---.idea
+¦       gradle.xml
+¦       misc.xml
+¦       vcs.xml
+¦       workspace.xml
+¦       
++---build
+¦   +---classes
+¦   ¦   L---java
+¦   ¦       +---main
+¦   ¦       ¦   ¦   TASmod-1.12.2-refmap.json
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   L---com
+¦   ¦       ¦       L---minecrafttas
+¦   ¦       ¦           +---mctcommon
+¦   ¦       ¦           ¦   ¦   CommandRegistry.class
+¦   ¦       ¦           ¦   ¦   Configuration.class
+¦   ¦       ¦           ¦   ¦   ConfigurationRegistry$ConfigOptions.class
+¦   ¦       ¦           ¦   ¦   ConfigurationRegistry.class
+¦   ¦       ¦           ¦   ¦   KeybindManager$IsKeyDownFunc.class
+¦   ¦       ¦           ¦   ¦   KeybindManager$Keybind.class
+¦   ¦       ¦           ¦   ¦   KeybindManager.class
+¦   ¦       ¦           ¦   ¦   LanguageManager.class
+¦   ¦       ¦           ¦   ¦   MCTCommon.class
+¦   ¦       ¦           ¦   ¦   
+¦   ¦       ¦           ¦   +---events
+¦   ¦       ¦           ¦   ¦       EventClient$EventCamera$CameraData.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventCamera.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventClientGameLoop.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventClientInit.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventClientTick.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventDisconnectClient.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventDoneLoadingPlayer.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventDoneLoadingWorld.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventLaunchIntegratedServer.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventOpenGui.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventOptionsInit.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventOtherPlayerJoinedClientSide.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventPlayerJoinedClientSide.class
+¦   ¦       ¦           ¦   ¦       EventClient$EventPlayerLeaveClientSide.class
+¦   ¦       ¦           ¦   ¦       EventClient.class
+¦   ¦       ¦           ¦   ¦       EventException.class
+¦   ¦       ¦           ¦   ¦       EventListenerRegistry$EventBase.class
+¦   ¦       ¦           ¦   ¦       EventListenerRegistry.class
+¦   ¦       ¦           ¦   ¦       EventServer$EventClientCompleteAuthentication.class
+¦   ¦       ¦           ¦   ¦       EventServer$EventDisconnectServer.class
+¦   ¦       ¦           ¦   ¦       EventServer$EventPlayerJoinedServerSide.class
+¦   ¦       ¦           ¦   ¦       EventServer$EventPlayerLeaveServerSide.class
+¦   ¦       ¦           ¦   ¦       EventServer$EventServerGameLoop.class
+¦   ¦       ¦           ¦   ¦       EventServer$EventServerInit.class
+¦   ¦       ¦           ¦   ¦       EventServer$EventServerStop.class
+¦   ¦       ¦           ¦   ¦       EventServer$EventServerTick.class
+¦   ¦       ¦           ¦   ¦       EventServer.class
+¦   ¦       ¦           ¦   ¦       
+¦   ¦       ¦           ¦   +---file
+¦   ¦       ¦           ¦   ¦       AbstractDataFile$PropertiesDeserializer.class
+¦   ¦       ¦           ¦   ¦       AbstractDataFile$PropertiesSerializer.class
+¦   ¦       ¦           ¦   ¦       AbstractDataFile.class
+¦   ¦       ¦           ¦   ¦       
+¦   ¦       ¦           ¦   +---mixin
+¦   ¦       ¦           ¦   ¦       AccessorKeyBinding.class
+¦   ¦       ¦           ¦   ¦       MixinGameSettings.class
+¦   ¦       ¦           ¦   ¦       MixinLocale.class
+¦   ¦       ¦           ¦   ¦       MixinMinecraft.class
+¦   ¦       ¦           ¦   ¦       MixinMinecraftServer.class
+¦   ¦       ¦           ¦   ¦       MixinNetHandlerPlayClient.class
+¦   ¦       ¦           ¦   ¦       MixinPlayerList.class
+¦   ¦       ¦           ¦   ¦       MixinWorldClient.class
+¦   ¦       ¦           ¦   ¦       
+¦   ¦       ¦           ¦   +---networking
+¦   ¦       ¦           ¦   ¦   ¦   ByteBufferBuilder.class
+¦   ¦       ¦           ¦   ¦   ¦   Client$1.class
+¦   ¦       ¦           ¦   ¦   ¦   Client$ClientCallback.class
+¦   ¦       ¦           ¦   ¦   ¦   Client$Side.class
+¦   ¦       ¦           ¦   ¦   ¦   Client.class
+¦   ¦       ¦           ¦   ¦   ¦   CompactPacketHandler.class
+¦   ¦       ¦           ¦   ¦   ¦   PacketHandlerRegistry.class
+¦   ¦       ¦           ¦   ¦   ¦   SecureList.class
+¦   ¦       ¦           ¦   ¦   ¦   Server$1.class
+¦   ¦       ¦           ¦   ¦   ¦   Server.class
+¦   ¦       ¦           ¦   ¦   ¦   
+¦   ¦       ¦           ¦   ¦   +---exception
+¦   ¦       ¦           ¦   ¦   ¦       InvalidPacketException.class
+¦   ¦       ¦           ¦   ¦   ¦       PacketNotImplementedException.class
+¦   ¦       ¦           ¦   ¦   ¦       WrongSideException.class
+¦   ¦       ¦           ¦   ¦   ¦       
+¦   ¦       ¦           ¦   ¦   L---interfaces
+¦   ¦       ¦           ¦   ¦           ClientPacketHandler.class
+¦   ¦       ¦           ¦   ¦           PacketHandlerBase.class
+¦   ¦       ¦           ¦   ¦           PacketID.class
+¦   ¦       ¦           ¦   ¦           ServerPacketHandler.class
+¦   ¦       ¦           ¦   ¦           
+¦   ¦       ¦           ¦   L---registry
+¦   ¦       ¦           ¦           AbstractRegistry.class
+¦   ¦       ¦           ¦           Registerable.class
+¦   ¦       ¦           ¦           
+¦   ¦       ¦           L---tasmod
+¦   ¦       ¦               ¦   TASmod.class
+¦   ¦       ¦               ¦   TASmodClient.class
+¦   ¦       ¦               ¦   
+¦   ¦       ¦               +---commands
+¦   ¦       ¦               ¦   ¦   CommandClearInputs.class
+¦   ¦       ¦               ¦   ¦   CommandFileCommand$1.class
+¦   ¦       ¦               ¦   ¦   CommandFileCommand.class
+¦   ¦       ¦               ¦   ¦   CommandFullPlay.class
+¦   ¦       ¦               ¦   ¦   CommandFullRecord.class
+¦   ¦       ¦               ¦   ¦   CommandLoadTAS.class
+¦   ¦       ¦               ¦   ¦   CommandPlay.class
+¦   ¦       ¦               ¦   ¦   CommandPlayUntil.class
+¦   ¦       ¦               ¦   ¦   CommandRecord.class
+¦   ¦       ¦               ¦   ¦   CommandRestartAndPlay$1.class
+¦   ¦       ¦               ¦   ¦   CommandRestartAndPlay.class
+¦   ¦       ¦               ¦   ¦   CommandSavestate.class
+¦   ¦       ¦               ¦   ¦   CommandSaveTAS.class
+¦   ¦       ¦               ¦   ¦   CommandTickrate.class
+¦   ¦       ¦               ¦   ¦   TabCompletionUtils$1.class
+¦   ¦       ¦               ¦   ¦   TabCompletionUtils$2.class
+¦   ¦       ¦               ¦   ¦   TabCompletionUtils.class
+¦   ¦       ¦               ¦   ¦   
+¦   ¦       ¦               ¦   L---client
+¦   ¦       ¦               ¦           ClientCommandBase.class
+¦   ¦       ¦               ¦           ClientCommandRegistry.class
+¦   ¦       ¦               ¦           CommandFolder.class
+¦   ¦       ¦               ¦           
+¦   ¦       ¦               +---events
+¦   ¦       ¦               ¦       EventClient$EventClientTickPost.class
+¦   ¦       ¦               ¦       EventClient$EventDrawHotbar.class
+¦   ¦       ¦               ¦       EventClient$EventDrawHotbarAlways.class
+¦   ¦       ¦               ¦       EventClient.class
+¦   ¦       ¦               ¦       EventNBT$EventPlayerRead.class
+¦   ¦       ¦               ¦       EventNBT$EventPlayerWrite.class
+¦   ¦       ¦               ¦       EventNBT$EventWorldRead.class
+¦   ¦       ¦               ¦       EventNBT$EventWorldWrite.class
+¦   ¦       ¦               ¦       EventNBT.class
+¦   ¦       ¦               ¦       EventPlaybackClient$EventControllerStateChange.class
+¦   ¦       ¦               ¦       EventPlaybackClient$EventInputDelete.class
+¦   ¦       ¦               ¦       EventPlaybackClient$EventPlaybackJoinedWorld.class
+¦   ¦       ¦               ¦       EventPlaybackClient$EventPlaybackTick.class
+¦   ¦       ¦               ¦       EventPlaybackClient$EventPlaybackTickPre.class
+¦   ¦       ¦               ¦       EventPlaybackClient$EventRecordClear.class
+¦   ¦       ¦               ¦       EventPlaybackClient$EventRecordTick.class
+¦   ¦       ¦               ¦       EventPlaybackClient.class
+¦   ¦       ¦               ¦       EventSavestate$EventClientCompleteLoadstate.class
+¦   ¦       ¦               ¦       EventSavestate$EventClientLoadPlayer.class
+¦   ¦       ¦               ¦       EventSavestate$EventClientLoadstate.class
+¦   ¦       ¦               ¦       EventSavestate$EventClientSavestate.class
+¦   ¦       ¦               ¦       EventSavestate$EventServerCompleteLoadstate.class
+¦   ¦       ¦               ¦       EventSavestate$EventServerLoadstate.class
+¦   ¦       ¦               ¦       EventSavestate$EventServerSavestate.class
+¦   ¦       ¦               ¦       EventSavestate.class
+¦   ¦       ¦               ¦       EventServer$EventServerTickPost.class
+¦   ¦       ¦               ¦       EventServer.class
+¦   ¦       ¦               ¦       EventTickratechanger$EventClientTickrateChange.class
+¦   ¦       ¦               ¦       EventTickratechanger$EventServerTickrateChange.class
+¦   ¦       ¦               ¦       EventTickratechanger.class
+¦   ¦       ¦               ¦       EventVirtualInput$EventVirtualCameraAngleTick.class
+¦   ¦       ¦               ¦       EventVirtualInput$EventVirtualKeyboardSubtick.class
+¦   ¦       ¦               ¦       EventVirtualInput$EventVirtualKeyboardTick.class
+¦   ¦       ¦               ¦       EventVirtualInput$EventVirtualMouseSubtick.class
+¦   ¦       ¦               ¦       EventVirtualInput$EventVirtualMouseTick.class
+¦   ¦       ¦               ¦       EventVirtualInput.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---gui
+¦   ¦       ¦               ¦       InfoHud$InfoLabel.class
+¦   ¦       ¦               ¦       InfoHud.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---handlers
+¦   ¦       ¦               ¦       LoadingScreenHandler.class
+¦   ¦       ¦               ¦       PlayUntilHandler$1.class
+¦   ¦       ¦               ¦       PlayUntilHandler.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---ktrng
+¦   ¦       ¦               ¦       KillTheRNGHandler$1.class
+¦   ¦       ¦               ¦       KillTheRNGHandler.class
+¦   ¦       ¦               ¦       KTRNGMonitor.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---mixin
+¦   ¦       ¦               ¦   ¦   MixinEntityPlayer.class
+¦   ¦       ¦               ¦   ¦   MixinFrustum.class
+¦   ¦       ¦               ¦   ¦   MixinMinecraft.class
+¦   ¦       ¦               ¦   ¦   MixinMinecraftServer.class
+¦   ¦       ¦               ¦   ¦   MixinTextfield.class
+¦   ¦       ¦               ¦   ¦   MixinTimer.class
+¦   ¦       ¦               ¦   ¦   
+¦   ¦       ¦               ¦   +---clientcommands
+¦   ¦       ¦               ¦   ¦       MixinEntityPlayerSP.class
+¦   ¦       ¦               ¦   ¦       MixinTabCompleter.class
+¦   ¦       ¦               ¦   ¦       
+¦   ¦       ¦               ¦   +---events
+¦   ¦       ¦               ¦   ¦       MixinEntityPlayerMP.class
+¦   ¦       ¦               ¦   ¦       MixinGuiIngame.class
+¦   ¦       ¦               ¦   ¦       MixinNetHandlerPlayClient.class
+¦   ¦       ¦               ¦   ¦       MixinSaveFormatOld.class
+¦   ¦       ¦               ¦   ¦       MixinSaveHandler.class
+¦   ¦       ¦               ¦   ¦       
+¦   ¦       ¦               ¦   +---fixes
+¦   ¦       ¦               ¦   ¦       MixinDragonFightManager.class
+¦   ¦       ¦               ¦   ¦       MixinMinecraftFullscreen.class
+¦   ¦       ¦               ¦   ¦       MixinMouseHelper.class
+¦   ¦       ¦               ¦   ¦       MixinNetworkManager.class
+¦   ¦       ¦               ¦   ¦       
+¦   ¦       ¦               ¦   +---playbackhooks
+¦   ¦       ¦               ¦   ¦       MixinEntityRenderer.class
+¦   ¦       ¦               ¦   ¦       MixinGameSettings.class
+¦   ¦       ¦               ¦   ¦       MixinGuiChat.class
+¦   ¦       ¦               ¦   ¦       MixinGuiClickableScrolledSelectionListProxy.class
+¦   ¦       ¦               ¦   ¦       MixinGuiContainer.class
+¦   ¦       ¦               ¦   ¦       MixinGuiContainerCreative.class
+¦   ¦       ¦               ¦   ¦       MixinGuiScreen.class
+¦   ¦       ¦               ¦   ¦       MixinGuiScreenAdvancements.class
+¦   ¦       ¦               ¦   ¦       MixinGuiSlot.class
+¦   ¦       ¦               ¦   ¦       MixinGuiStats.class
+¦   ¦       ¦               ¦   ¦       MixinKeyBinding.class
+¦   ¦       ¦               ¦   ¦       MixinMinecraft.class
+¦   ¦       ¦               ¦   ¦       
+¦   ¦       ¦               ¦   +---savestates
+¦   ¦       ¦               ¦   ¦       AccessorAnvilChunkLoader.class
+¦   ¦       ¦               ¦   ¦       AccessorChunkLoader.class
+¦   ¦       ¦               ¦   ¦       AccessorEntityLivingBase.class
+¦   ¦       ¦               ¦   ¦       MixinChunkProviderClient.class
+¦   ¦       ¦               ¦   ¦       MixinChunkProviderServer.class
+¦   ¦       ¦               ¦   ¦       MixinNetHandlerPlayServer.class
+¦   ¦       ¦               ¦   ¦       MixinPlayerChunkMap$1.class
+¦   ¦       ¦               ¦   ¦       MixinPlayerChunkMap$2.class
+¦   ¦       ¦               ¦   ¦       MixinPlayerChunkMap.class
+¦   ¦       ¦               ¦   ¦       MixinScoreboard.class
+¦   ¦       ¦               ¦   ¦       MixinWorldClient.class
+¦   ¦       ¦               ¦   ¦       
+¦   ¦       ¦               ¦   L---shields
+¦   ¦       ¦               ¦           MixinRenderItem.class
+¦   ¦       ¦               ¦           MixinTileEntityItemStackRenderer.class
+¦   ¦       ¦               ¦           
+¦   ¦       ¦               +---networking
+¦   ¦       ¦               ¦       TASmodBufferBuilder.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---playback
+¦   ¦       ¦               ¦   ¦   PlaybackControllerClient$1.class
+¦   ¦       ¦               ¦   ¦   PlaybackControllerClient$CommentContainer.class
+¦   ¦       ¦               ¦   ¦   PlaybackControllerClient$InputContainer.class
+¦   ¦       ¦               ¦   ¦   PlaybackControllerClient$TASstate.class
+¦   ¦       ¦               ¦   ¦   PlaybackControllerClient.class
+¦   ¦       ¦               ¦   ¦   PlaybackControllerServer$1.class
+¦   ¦       ¦               ¦   ¦   PlaybackControllerServer.class
+¦   ¦       ¦               ¦   ¦   
+¦   ¦       ¦               ¦   +---filecommands
+¦   ¦       ¦               ¦   ¦   ¦   PlaybackFileCommand$FileCommandsInCommentList.class
+¦   ¦       ¦               ¦   ¦   ¦   PlaybackFileCommand$FileCommandsInTickList.class
+¦   ¦       ¦               ¦   ¦   ¦   PlaybackFileCommand$PlaybackFileCommandExtension.class
+¦   ¦       ¦               ¦   ¦   ¦   PlaybackFileCommand$SortedFileCommandContainer.class
+¦   ¦       ¦               ¦   ¦   ¦   PlaybackFileCommand$UnsortedFileCommandContainer.class
+¦   ¦       ¦               ¦   ¦   ¦   PlaybackFileCommand.class
+¦   ¦       ¦               ¦   ¦   ¦   PlaybackFileCommandsRegistry.class
+¦   ¦       ¦               ¦   ¦   ¦   
+¦   ¦       ¦               ¦   ¦   L---builtin
+¦   ¦       ¦               ¦   ¦           DesyncMonitorFileCommandExtension$DesyncStatus.class
+¦   ¦       ¦               ¦   ¦           DesyncMonitorFileCommandExtension$MonitorContainer.class
+¦   ¦       ¦               ¦   ¦           DesyncMonitorFileCommandExtension.class
+¦   ¦       ¦               ¦   ¦           LabelFileCommandExtension.class
+¦   ¦       ¦               ¦   ¦           OptionsFileCommandExtension.class
+¦   ¦       ¦               ¦   ¦           
+¦   ¦       ¦               ¦   +---metadata
+¦   ¦       ¦               ¦   ¦   ¦   PlaybackMetadata$PlaybackMetadataExtension.class
+¦   ¦       ¦               ¦   ¦   ¦   PlaybackMetadata.class
+¦   ¦       ¦               ¦   ¦   ¦   PlaybackMetadataRegistry.class
+¦   ¦       ¦               ¦   ¦   ¦   
+¦   ¦       ¦               ¦   ¦   L---builtin
+¦   ¦       ¦               ¦   ¦           CreditsMetadataExtension$CreditFields.class
+¦   ¦       ¦               ¦   ¦           CreditsMetadataExtension.class
+¦   ¦       ¦               ¦   ¦           StartpositionMetadataExtension$StartPosition.class
+¦   ¦       ¦               ¦   ¦           StartpositionMetadataExtension$StartPositionFields.class
+¦   ¦       ¦               ¦   ¦           StartpositionMetadataExtension.class
+¦   ¦       ¦               ¦   ¦           
+¦   ¦       ¦               ¦   L---tasfile
+¦   ¦       ¦               ¦       ¦   PlaybackSerialiser.class
+¦   ¦       ¦               ¦       ¦   
+¦   ¦       ¦               ¦       +---exception
+¦   ¦       ¦               ¦       ¦       PlaybackLoadException.class
+¦   ¦       ¦               ¦       ¦       PlaybackSaveException.class
+¦   ¦       ¦               ¦       ¦       
+¦   ¦       ¦               ¦       L---flavor
+¦   ¦       ¦               ¦           ¦   SerialiserFlavorBase$1.class
+¦   ¦       ¦               ¦           ¦   SerialiserFlavorBase$ExtractPhases.class
+¦   ¦       ¦               ¦           ¦   SerialiserFlavorBase$WrongKeyCheck.class
+¦   ¦       ¦               ¦           ¦   SerialiserFlavorBase.class
+¦   ¦       ¦               ¦           ¦   SerialiserFlavorRegistry.class
+¦   ¦       ¦               ¦           ¦   
+¦   ¦       ¦               ¦           L---builtin
+¦   ¦       ¦               ¦                   AlphaFlavor.class
+¦   ¦       ¦               ¦                   Beta1Flavor.class
+¦   ¦       ¦               ¦                   
+¦   ¦       ¦               +---registries
+¦   ¦       ¦               ¦       TASmodAPIRegistry.class
+¦   ¦       ¦               ¦       TASmodConfig.class
+¦   ¦       ¦               ¦       TASmodKeybinds.class
+¦   ¦       ¦               ¦       TASmodPackets.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---savestates
+¦   ¦       ¦               ¦   ¦   SavestateHandlerClient$1.class
+¦   ¦       ¦               ¦   ¦   SavestateHandlerClient.class
+¦   ¦       ¦               ¦   ¦   SavestateHandlerServer$1.class
+¦   ¦       ¦               ¦   ¦   SavestateHandlerServer$SavestateState.class
+¦   ¦       ¦               ¦   ¦   SavestateHandlerServer.class
+¦   ¦       ¦               ¦   ¦   
+¦   ¦       ¦               ¦   +---exceptions
+¦   ¦       ¦               ¦   ¦       LoadstateException.class
+¦   ¦       ¦               ¦   ¦       SavestateDeleteException.class
+¦   ¦       ¦               ¦   ¦       SavestateException.class
+¦   ¦       ¦               ¦   ¦       
+¦   ¦       ¦               ¦   +---files
+¦   ¦       ¦               ¦   ¦       SavestateDataFile$DataValues.class
+¦   ¦       ¦               ¦   ¦       SavestateDataFile.class
+¦   ¦       ¦               ¦   ¦       SavestateTrackerFile.class
+¦   ¦       ¦               ¦   ¦       
+¦   ¦       ¦               ¦   +---gui
+¦   ¦       ¦               ¦   ¦       GuiSavestateLoadingScreen.class
+¦   ¦       ¦               ¦   ¦       GuiSavestateSavingScreen.class
+¦   ¦       ¦               ¦   ¦       
+¦   ¦       ¦               ¦   +---handlers
+¦   ¦       ¦               ¦   ¦       SavestatePlayerHandler$1.class
+¦   ¦       ¦               ¦   ¦       SavestatePlayerHandler.class
+¦   ¦       ¦               ¦   ¦       SavestateWorldHandler.class
+¦   ¦       ¦               ¦   ¦       
+¦   ¦       ¦               ¦   L---storage
+¦   ¦       ¦               ¦       ¦   AbstractExtendStorage.class
+¦   ¦       ¦               ¦       ¦   
+¦   ¦       ¦               ¦       L---builtin
+¦   ¦       ¦               ¦               SavestateMotionStorage$1.class
+¦   ¦       ¦               ¦               SavestateMotionStorage$MotionData.class
+¦   ¦       ¦               ¦               SavestateMotionStorage.class
+¦   ¦       ¦               ¦               
+¦   ¦       ¦               +---tickratechanger
+¦   ¦       ¦               ¦       TickrateChangerClient$1.class
+¦   ¦       ¦               ¦       TickrateChangerClient.class
+¦   ¦       ¦               ¦       TickrateChangerServer$1.class
+¦   ¦       ¦               ¦       TickrateChangerServer$TickratePauseState.class
+¦   ¦       ¦               ¦       TickrateChangerServer.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---ticksync
+¦   ¦       ¦               ¦       TickSyncClient.class
+¦   ¦       ¦               ¦       TickSyncServer.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---util
+¦   ¦       ¦               ¦       DebugWriter.class
+¦   ¦       ¦               ¦       Ducks$ChunkProviderDuck.class
+¦   ¦       ¦               ¦       Ducks$GuiScreenDuck.class
+¦   ¦       ¦               ¦       Ducks$PlayerChunkMapDuck.class
+¦   ¦       ¦               ¦       Ducks$ScoreboardDuck.class
+¦   ¦       ¦               ¦       Ducks$SubtickDuck.class
+¦   ¦       ¦               ¦       Ducks$WorldClientDuck.class
+¦   ¦       ¦               ¦       Ducks.class
+¦   ¦       ¦               ¦       FileThread.class
+¦   ¦       ¦               ¦       LoggerMarkers.class
+¦   ¦       ¦               ¦       Monitor.class
+¦   ¦       ¦               ¦       PointerNormalizer.class
+¦   ¦       ¦               ¦       Scheduler$Task.class
+¦   ¦       ¦               ¦       Scheduler.class
+¦   ¦       ¦               ¦       ShieldDownloader$1.class
+¦   ¦       ¦               ¦       ShieldDownloader$2.class
+¦   ¦       ¦               ¦       ShieldDownloader.class
+¦   ¦       ¦               ¦       TrajectoriesCalculator.class
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               L---virtual
+¦   ¦       ¦                   ¦   Subtickable.class
+¦   ¦       ¦                   ¦   VirtualCameraAngle.class
+¦   ¦       ¦                   ¦   VirtualInput$VirtualCameraAngleInput.class
+¦   ¦       ¦                   ¦   VirtualInput$VirtualKeyboardInput.class
+¦   ¦       ¦                   ¦   VirtualInput$VirtualMouseInput.class
+¦   ¦       ¦                   ¦   VirtualInput.class
+¦   ¦       ¦                   ¦   VirtualKey.class
+¦   ¦       ¦                   ¦   VirtualKeybindings.class
+¦   ¦       ¦                   ¦   VirtualKeyboard.class
+¦   ¦       ¦                   ¦   VirtualMouse.class
+¦   ¦       ¦                   ¦   VirtualPeripheral.class
+¦   ¦       ¦                   ¦   
+¦   ¦       ¦                   L---event
+¦   ¦       ¦                           VirtualEvent.class
+¦   ¦       ¦                           VirtualKeyboardEvent.class
+¦   ¦       ¦                           VirtualMouseEvent.class
+¦   ¦       ¦                           
+¦   ¦       L---test
+¦   ¦           +---mctcommon
+¦   ¦           ¦   ¦   TestConfiguration$TestConfig.class
+¦   ¦           ¦   ¦   TestConfiguration.class
+¦   ¦           ¦   ¦   
+¦   ¦           ¦   +---event
+¦   ¦           ¦   ¦       EventTest$1.class
+¦   ¦           ¦   ¦       EventTest$1TestClass.class
+¦   ¦           ¦   ¦       EventTest$AdditionEvent.class
+¦   ¦           ¦   ¦       EventTest$TestEvent.class
+¦   ¦           ¦   ¦       EventTest.class
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   L---server
+¦   ¦           ¦           ByteBufferBuilderTest$TestPacketIDs.class
+¦   ¦           ¦           ByteBufferBuilderTest.class
+¦   ¦           ¦           ServerTest$1.class
+¦   ¦           ¦           ServerTest$TestingClass.class
+¦   ¦           ¦           ServerTest$TestPacketIDs.class
+¦   ¦           ¦           ServerTest.class
+¦   ¦           ¦           
+¦   ¦           L---tasmod
+¦   ¦               +---networking
+¦   ¦               ¦       TASmodByteBufferBuilderTest$TestPacketIDs.class
+¦   ¦               ¦       TASmodByteBufferBuilderTest.class
+¦   ¦               ¦       
+¦   ¦               +---playback
+¦   ¦               ¦   +---filecommands
+¦   ¦               ¦   ¦       PlaybackFileCommandTest$TestFileCommandExtension.class
+¦   ¦               ¦   ¦       PlaybackFileCommandTest$TestMultiFileCommandExtension.class
+¦   ¦               ¦   ¦       PlaybackFileCommandTest.class
+¦   ¦               ¦   ¦       
+¦   ¦               ¦   +---metadata
+¦   ¦               ¦   ¦       PlaybackMetadataRegistryTest$Test1.class
+¦   ¦               ¦   ¦       PlaybackMetadataRegistryTest.class
+¦   ¦               ¦   ¦       PlaybackMetadataTest$MetadataTest.class
+¦   ¦               ¦   ¦       PlaybackMetadataTest.class
+¦   ¦               ¦   ¦       
+¦   ¦               ¦   L---tasfile
+¦   ¦               ¦       ¦   PlaybackSerialiserTest$1.class
+¦   ¦               ¦       ¦   PlaybackSerialiserTest$TestFileCommand.class
+¦   ¦               ¦       ¦   PlaybackSerialiserTest$TestFlavor.class
+¦   ¦               ¦       ¦   PlaybackSerialiserTest$TestMetadatada.class
+¦   ¦               ¦       ¦   PlaybackSerialiserTest.class
+¦   ¦               ¦       ¦   SerialiserFlavorBaseTest$1GeneralMetadata.class
+¦   ¦               ¦       ¦   SerialiserFlavorBaseTest$1MetadataTest.class
+¦   ¦               ¦       ¦   SerialiserFlavorBaseTest$1MetadataTest2.class
+¦   ¦               ¦       ¦   SerialiserFlavorBaseTest$1StartPositionMetadata.class
+¦   ¦               ¦       ¦   SerialiserFlavorBaseTest$1Test1.class
+¦   ¦               ¦       ¦   SerialiserFlavorBaseTest$1Test2.class
+¦   ¦               ¦       ¦   SerialiserFlavorBaseTest$1TestFileCommand.class
+¦   ¦               ¦       ¦   SerialiserFlavorBaseTest.class
+¦   ¦               ¦       ¦   
+¦   ¦               ¦       L---builtin
+¦   ¦               ¦               AlphaFlavorTest$1.class
+¦   ¦               ¦               AlphaFlavorTest$CreditsMetadataExtensionTest.class
+¦   ¦               ¦               AlphaFlavorTest$StartpositionMetadataExtensionTest.class
+¦   ¦               ¦               AlphaFlavorTest.class
+¦   ¦               ¦               
+¦   ¦               L---virtual
+¦   ¦                       VirtualCameraAngleTest.class
+¦   ¦                       VirtualInputEventFiring$EventCopy.class
+¦   ¦                       VirtualInputEventFiring$EventTest.class
+¦   ¦                       VirtualInputEventFiring.class
+¦   ¦                       VirtualInputTest.class
+¦   ¦                       VirtualKeyboardTest.class
+¦   ¦                       VirtualMouseTest.class
+¦   ¦                       
+¦   +---devlibs
+¦   ¦       TASmod-1.12.2-Beta1.0-SNAPSHOT_e18f943-dev.jar
+¦   ¦       
+¦   +---generated
+¦   ¦   L---sources
+¦   ¦       +---annotationProcessor
+¦   ¦       ¦   L---java
+¦   ¦       ¦       +---main
+¦   ¦       ¦       L---test
+¦   ¦       L---headers
+¦   ¦           L---java
+¦   ¦               +---main
+¦   ¦               L---test
+¦   +---libs
+¦   +---loom-cache
+¦   ¦       mixin-map-net.legacyfabric.yarn.1_12_2.1.12.2+build.mcp.main.tiny
+¦   ¦       
+¦   +---processIncludeJars
+¦   +---reports
+¦   ¦   +---problems
+¦   ¦   ¦       problems-report.html
+¦   ¦   ¦       
+¦   ¦   L---tests
+¦   ¦       L---test
+¦   ¦           ¦   index.html
+¦   ¦           ¦   
+¦   ¦           +---classes
+¦   ¦           ¦       mctcommon.event.EventTest.html
+¦   ¦           ¦       mctcommon.server.ByteBufferBuilderTest.html
+¦   ¦           ¦       mctcommon.server.ServerTest.html
+¦   ¦           ¦       mctcommon.TestConfiguration.html
+¦   ¦           ¦       tasmod.networking.TASmodByteBufferBuilderTest.html
+¦   ¦           ¦       tasmod.playback.filecommands.PlaybackFileCommandTest.html
+¦   ¦           ¦       tasmod.playback.metadata.PlaybackMetadataRegistryTest.html
+¦   ¦           ¦       tasmod.playback.metadata.PlaybackMetadataTest.html
+¦   ¦           ¦       tasmod.playback.tasfile.builtin.AlphaFlavorTest.html
+¦   ¦           ¦       tasmod.playback.tasfile.PlaybackSerialiserTest.html
+¦   ¦           ¦       tasmod.playback.tasfile.SerialiserFlavorBaseTest.html
+¦   ¦           ¦       tasmod.virtual.VirtualCameraAngleTest.html
+¦   ¦           ¦       tasmod.virtual.VirtualInputEventFiring.html
+¦   ¦           ¦       tasmod.virtual.VirtualInputTest.html
+¦   ¦           ¦       tasmod.virtual.VirtualKeyboardTest.html
+¦   ¦           ¦       tasmod.virtual.VirtualMouseTest.html
+¦   ¦           ¦       
+¦   ¦           +---css
+¦   ¦           ¦       base-style.css
+¦   ¦           ¦       style.css
+¦   ¦           ¦       
+¦   ¦           +---js
+¦   ¦           ¦       report.js
+¦   ¦           ¦       
+¦   ¦           L---packages
+¦   ¦                   mctcommon.event.html
+¦   ¦                   mctcommon.html
+¦   ¦                   mctcommon.server.html
+¦   ¦                   tasmod.networking.html
+¦   ¦                   tasmod.playback.filecommands.html
+¦   ¦                   tasmod.playback.metadata.html
+¦   ¦                   tasmod.playback.tasfile.builtin.html
+¦   ¦                   tasmod.playback.tasfile.html
+¦   ¦                   tasmod.virtual.html
+¦   ¦                   
+¦   +---resources
+¦   ¦   +---main
+¦   ¦   ¦   ¦   fabric.mod.json
+¦   ¦   ¦   ¦   log4j.xml
+¦   ¦   ¦   ¦   mctcommon.mixin.json
+¦   ¦   ¦   ¦   tasmod.accesswidener
+¦   ¦   ¦   ¦   tasmod.mixin.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   L---assets
+¦   ¦   ¦       L---tasmod
+¦   ¦   ¦           +---lang
+¦   ¦   ¦           ¦       en_us.json
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           L---textures
+¦   ¦   ¦               ¦   potion.png
+¦   ¦   ¦               ¦   potion2.png
+¦   ¦   ¦               ¦   
+¦   ¦   ¦               L---shields
+¦   ¦   ¦                       bottleshield.png
+¦   ¦   ¦                       
+¦   ¦   L---test
+¦   ¦       +---betaflavor
+¦   ¦       ¦       .gitkeep
+¦   ¦       ¦       
+¦   ¦       +---metadata
+¦   ¦       ¦       .gitkeep
+¦   ¦       ¦       
+¦   ¦       L---serialiser
+¦   ¦               .gitkeep
+¦   ¦               
+¦   +---spotless-clean
+¦   ¦   L---spotlessJava
+¦   ¦       L---src
+¦   ¦           +---main
+¦   ¦           ¦   L---java
+¦   ¦           ¦       L---com
+¦   ¦           ¦           L---minecrafttas
+¦   ¦           ¦               +---mctcommon
+¦   ¦           ¦               ¦   ¦   CommandRegistry.java
+¦   ¦           ¦               ¦   ¦   Configuration.java
+¦   ¦           ¦               ¦   ¦   ConfigurationRegistry.java
+¦   ¦           ¦               ¦   ¦   KeybindManager.java
+¦   ¦           ¦               ¦   ¦   LanguageManager.java
+¦   ¦           ¦               ¦   ¦   MCTCommon.java
+¦   ¦           ¦               ¦   ¦   package-info.java
+¦   ¦           ¦               ¦   ¦   
+¦   ¦           ¦               ¦   +---events
+¦   ¦           ¦               ¦   ¦       EventClient.java
+¦   ¦           ¦               ¦   ¦       EventException.java
+¦   ¦           ¦               ¦   ¦       EventListenerRegistry.java
+¦   ¦           ¦               ¦   ¦       EventServer.java
+¦   ¦           ¦               ¦   ¦       
+¦   ¦           ¦               ¦   +---file
+¦   ¦           ¦               ¦   ¦       AbstractDataFile.java
+¦   ¦           ¦               ¦   ¦       
+¦   ¦           ¦               ¦   +---mixin
+¦   ¦           ¦               ¦   ¦       AccessorKeyBinding.java
+¦   ¦           ¦               ¦   ¦       MixinGameSettings.java
+¦   ¦           ¦               ¦   ¦       MixinLocale.java
+¦   ¦           ¦               ¦   ¦       MixinMinecraft.java
+¦   ¦           ¦               ¦   ¦       MixinMinecraftServer.java
+¦   ¦           ¦               ¦   ¦       MixinNetHandlerPlayClient.java
+¦   ¦           ¦               ¦   ¦       MixinPlayerList.java
+¦   ¦           ¦               ¦   ¦       MixinWorldClient.java
+¦   ¦           ¦               ¦   ¦       
+¦   ¦           ¦               ¦   +---networking
+¦   ¦           ¦               ¦   ¦   ¦   ByteBufferBuilder.java
+¦   ¦           ¦               ¦   ¦   ¦   Client.java
+¦   ¦           ¦               ¦   ¦   ¦   CompactPacketHandler.java
+¦   ¦           ¦               ¦   ¦   ¦   PacketHandlerRegistry.java
+¦   ¦           ¦               ¦   ¦   ¦   SecureList.java
+¦   ¦           ¦               ¦   ¦   ¦   Server.java
+¦   ¦           ¦               ¦   ¦   ¦   
+¦   ¦           ¦               ¦   ¦   +---exception
+¦   ¦           ¦               ¦   ¦   ¦       InvalidPacketException.java
+¦   ¦           ¦               ¦   ¦   ¦       PacketNotImplementedException.java
+¦   ¦           ¦               ¦   ¦   ¦       WrongSideException.java
+¦   ¦           ¦               ¦   ¦   ¦       
+¦   ¦           ¦               ¦   ¦   L---interfaces
+¦   ¦           ¦               ¦   ¦           ClientPacketHandler.java
+¦   ¦           ¦               ¦   ¦           PacketHandlerBase.java
+¦   ¦           ¦               ¦   ¦           PacketID.java
+¦   ¦           ¦               ¦   ¦           ServerPacketHandler.java
+¦   ¦           ¦               ¦   ¦           
+¦   ¦           ¦               ¦   L---registry
+¦   ¦           ¦               ¦           AbstractRegistry.java
+¦   ¦           ¦               ¦           Registerable.java
+¦   ¦           ¦               ¦           
+¦   ¦           ¦               L---tasmod
+¦   ¦           ¦                   ¦   TASmod.java
+¦   ¦           ¦                   ¦   TASmodClient.java
+¦   ¦           ¦                   ¦   
+¦   ¦           ¦                   +---commands
+¦   ¦           ¦                   ¦   ¦   CommandClearInputs.java
+¦   ¦           ¦                   ¦   ¦   CommandFileCommand.java
+¦   ¦           ¦                   ¦   ¦   CommandFullPlay.java
+¦   ¦           ¦                   ¦   ¦   CommandFullRecord.java
+¦   ¦           ¦                   ¦   ¦   CommandLoadTAS.java
+¦   ¦           ¦                   ¦   ¦   CommandPlay.java
+¦   ¦           ¦                   ¦   ¦   CommandPlayUntil.java
+¦   ¦           ¦                   ¦   ¦   CommandRecord.java
+¦   ¦           ¦                   ¦   ¦   CommandRestartAndPlay.java
+¦   ¦           ¦                   ¦   ¦   CommandSavestate.java
+¦   ¦           ¦                   ¦   ¦   CommandSaveTAS.java
+¦   ¦           ¦                   ¦   ¦   CommandTickrate.java
+¦   ¦           ¦                   ¦   ¦   TabCompletionUtils.java
+¦   ¦           ¦                   ¦   ¦   
+¦   ¦           ¦                   ¦   L---client
+¦   ¦           ¦                   ¦           ClientCommandBase.java
+¦   ¦           ¦                   ¦           ClientCommandRegistry.java
+¦   ¦           ¦                   ¦           CommandFolder.java
+¦   ¦           ¦                   ¦           
+¦   ¦           ¦                   +---events
+¦   ¦           ¦                   ¦       EventClient.java
+¦   ¦           ¦                   ¦       EventNBT.java
+¦   ¦           ¦                   ¦       EventPlaybackClient.java
+¦   ¦           ¦                   ¦       EventSavestate.java
+¦   ¦           ¦                   ¦       EventServer.java
+¦   ¦           ¦                   ¦       EventTickratechanger.java
+¦   ¦           ¦                   ¦       EventVirtualInput.java
+¦   ¦           ¦                   ¦       
+¦   ¦           ¦                   +---gui
+¦   ¦           ¦                   ¦       InfoHud.java
+¦   ¦           ¦                   ¦       
+¦   ¦           ¦                   +---handlers
+¦   ¦           ¦                   ¦       LoadingScreenHandler.java
+¦   ¦           ¦                   ¦       PlayUntilHandler.java
+¦   ¦           ¦                   ¦       
+¦   ¦           ¦                   +---ktrng
+¦   ¦           ¦                   ¦       KillTheRNGHandler.java
+¦   ¦           ¦                   ¦       KTRNGMonitor.java
+¦   ¦           ¦                   ¦       
+¦   ¦           ¦                   +---mixin
+¦   ¦           ¦                   ¦   ¦   MixinEntityPlayer.java
+¦   ¦           ¦                   ¦   ¦   MixinFrustum.java
+¦   ¦           ¦                   ¦   ¦   MixinMinecraft.java
+¦   ¦           ¦                   ¦   ¦   MixinMinecraftServer.java
+¦   ¦           ¦                   ¦   ¦   MixinTextfield.java
+¦   ¦           ¦                   ¦   ¦   MixinTimer.java
+¦   ¦           ¦                   ¦   ¦   
+¦   ¦           ¦                   ¦   +---clientcommands
+¦   ¦           ¦                   ¦   ¦       MixinEntityPlayerSP.java
+¦   ¦           ¦                   ¦   ¦       MixinTabCompleter.java
+¦   ¦           ¦                   ¦   ¦       
+¦   ¦           ¦                   ¦   +---events
+¦   ¦           ¦                   ¦   ¦       MixinEntityPlayerMP.java
+¦   ¦           ¦                   ¦   ¦       MixinGuiIngame.java
+¦   ¦           ¦                   ¦   ¦       MixinNetHandlerPlayClient.java
+¦   ¦           ¦                   ¦   ¦       MixinSaveFormatOld.java
+¦   ¦           ¦                   ¦   ¦       MixinSaveHandler.java
+¦   ¦           ¦                   ¦   ¦       
+¦   ¦           ¦                   ¦   +---fixes
+¦   ¦           ¦                   ¦   ¦       MixinDragonFightManager.java
+¦   ¦           ¦                   ¦   ¦       MixinMinecraftFullscreen.java
+¦   ¦           ¦                   ¦   ¦       MixinMouseHelper.java
+¦   ¦           ¦                   ¦   ¦       MixinNetworkManager.java
+¦   ¦           ¦                   ¦   ¦       
+¦   ¦           ¦                   ¦   +---playbackhooks
+¦   ¦           ¦                   ¦   ¦       MixinEntityRenderer.java
+¦   ¦           ¦                   ¦   ¦       MixinGameSettings.java
+¦   ¦           ¦                   ¦   ¦       MixinGuiChat.java
+¦   ¦           ¦                   ¦   ¦       MixinGuiClickableScrolledSelectionListProxy.java
+¦   ¦           ¦                   ¦   ¦       MixinGuiContainer.java
+¦   ¦           ¦                   ¦   ¦       MixinGuiContainerCreative.java
+¦   ¦           ¦                   ¦   ¦       MixinGuiScreen.java
+¦   ¦           ¦                   ¦   ¦       MixinGuiScreenAdvancements.java
+¦   ¦           ¦                   ¦   ¦       MixinGuiSlot.java
+¦   ¦           ¦                   ¦   ¦       MixinGuiStats.java
+¦   ¦           ¦                   ¦   ¦       MixinKeyBinding.java
+¦   ¦           ¦                   ¦   ¦       MixinMinecraft.java
+¦   ¦           ¦                   ¦   ¦       
+¦   ¦           ¦                   ¦   +---savestates
+¦   ¦           ¦                   ¦   ¦       AccessorAnvilChunkLoader.java
+¦   ¦           ¦                   ¦   ¦       AccessorChunkLoader.java
+¦   ¦           ¦                   ¦   ¦       AccessorEntityLivingBase.java
+¦   ¦           ¦                   ¦   ¦       MixinChunkProviderClient.java
+¦   ¦           ¦                   ¦   ¦       MixinChunkProviderServer.java
+¦   ¦           ¦                   ¦   ¦       MixinNetHandlerPlayServer.java
+¦   ¦           ¦                   ¦   ¦       MixinPlayerChunkMap.java
+¦   ¦           ¦                   ¦   ¦       MixinScoreboard.java
+¦   ¦           ¦                   ¦   ¦       MixinWorldClient.java
+¦   ¦           ¦                   ¦   ¦       
+¦   ¦           ¦                   ¦   L---shields
+¦   ¦           ¦                   ¦           MixinRenderItem.java
+¦   ¦           ¦                   ¦           MixinTileEntityItemStackRenderer.java
+¦   ¦           ¦                   ¦           
+¦   ¦           ¦                   +---networking
+¦   ¦           ¦                   ¦       TASmodBufferBuilder.java
+¦   ¦           ¦                   ¦       
+¦   ¦           ¦                   +---playback
+¦   ¦           ¦                   ¦   ¦   PlaybackControllerClient.java
+¦   ¦           ¦                   ¦   ¦   PlaybackControllerServer.java
+¦   ¦           ¦                   ¦   ¦   
+¦   ¦           ¦                   ¦   +---filecommands
+¦   ¦           ¦                   ¦   ¦   ¦   PlaybackFileCommand.java
+¦   ¦           ¦                   ¦   ¦   ¦   PlaybackFileCommandsRegistry.java
+¦   ¦           ¦                   ¦   ¦   ¦   
+¦   ¦           ¦                   ¦   ¦   L---builtin
+¦   ¦           ¦                   ¦   ¦           DesyncMonitorFileCommandExtension.java
+¦   ¦           ¦                   ¦   ¦           LabelFileCommandExtension.java
+¦   ¦           ¦                   ¦   ¦           OptionsFileCommandExtension.java
+¦   ¦           ¦                   ¦   ¦           
+¦   ¦           ¦                   ¦   +---metadata
+¦   ¦           ¦                   ¦   ¦   ¦   PlaybackMetadata.java
+¦   ¦           ¦                   ¦   ¦   ¦   PlaybackMetadataRegistry.java
+¦   ¦           ¦                   ¦   ¦   ¦   
+¦   ¦           ¦                   ¦   ¦   L---builtin
+¦   ¦           ¦                   ¦   ¦           CreditsMetadataExtension.java
+¦   ¦           ¦                   ¦   ¦           StartpositionMetadataExtension.java
+¦   ¦           ¦                   ¦   ¦           
+¦   ¦           ¦                   ¦   L---tasfile
+¦   ¦           ¦                   ¦       ¦   PlaybackSerialiser.java
+¦   ¦           ¦                   ¦       ¦   
+¦   ¦           ¦                   ¦       +---exception
+¦   ¦           ¦                   ¦       ¦       PlaybackLoadException.java
+¦   ¦           ¦                   ¦       ¦       PlaybackSaveException.java
+¦   ¦           ¦                   ¦       ¦       
+¦   ¦           ¦                   ¦       L---flavor
+¦   ¦           ¦                   ¦           ¦   SerialiserFlavorBase.java
+¦   ¦           ¦                   ¦           ¦   SerialiserFlavorRegistry.java
+¦   ¦           ¦                   ¦           ¦   
+¦   ¦           ¦                   ¦           L---builtin
+¦   ¦           ¦                   ¦                   AlphaFlavor.java
+¦   ¦           ¦                   ¦                   Beta1Flavor.java
+¦   ¦           ¦                   ¦                   
+¦   ¦           ¦                   +---registries
+¦   ¦           ¦                   ¦       TASmodAPIRegistry.java
+¦   ¦           ¦                   ¦       TASmodConfig.java
+¦   ¦           ¦                   ¦       TASmodKeybinds.java
+¦   ¦           ¦                   ¦       TASmodPackets.java
+¦   ¦           ¦                   ¦       
+¦   ¦           ¦                   +---savestates
+¦   ¦           ¦                   ¦   ¦   SavestateHandlerClient.java
+¦   ¦           ¦                   ¦   ¦   SavestateHandlerServer.java
+¦   ¦           ¦                   ¦   ¦   
+¦   ¦           ¦                   ¦   +---exceptions
+¦   ¦           ¦                   ¦   ¦       LoadstateException.java
+¦   ¦           ¦                   ¦   ¦       SavestateDeleteException.java
+¦   ¦           ¦                   ¦   ¦       SavestateException.java
+¦   ¦           ¦                   ¦   ¦       
+¦   ¦           ¦                   ¦   +---files
+¦   ¦           ¦                   ¦   ¦       SavestateDataFile.java
+¦   ¦           ¦                   ¦   ¦       SavestateTrackerFile.java
+¦   ¦           ¦                   ¦   ¦       
+¦   ¦           ¦                   ¦   +---gui
+¦   ¦           ¦                   ¦   ¦       GuiSavestateLoadingScreen.java
+¦   ¦           ¦                   ¦   ¦       GuiSavestateSavingScreen.java
+¦   ¦           ¦                   ¦   ¦       
+¦   ¦           ¦                   ¦   +---handlers
+¦   ¦           ¦                   ¦   ¦       SavestatePlayerHandler.java
+¦   ¦           ¦                   ¦   ¦       SavestateWorldHandler.java
+¦   ¦           ¦                   ¦   ¦       
+¦   ¦           ¦                   ¦   L---storage
+¦   ¦           ¦                   ¦       ¦   AbstractExtendStorage.java
+¦   ¦           ¦                   ¦       ¦   package-info.java
+¦   ¦           ¦                   ¦       ¦   
+¦   ¦           ¦                   ¦       L---builtin
+¦   ¦           ¦                   ¦               SavestateMotionStorage.java
+¦   ¦           ¦                   ¦               
+¦   ¦           ¦                   +---tickratechanger
+¦   ¦           ¦                   ¦       TickrateChangerClient.java
+¦   ¦           ¦                   ¦       TickrateChangerServer.java
+¦   ¦           ¦                   ¦       
+¦   ¦           ¦                   +---ticksync
+¦   ¦           ¦                   ¦       TickSyncClient.java
+¦   ¦           ¦                   ¦       TickSyncServer.java
+¦   ¦           ¦                   ¦       
+¦   ¦           ¦                   +---util
+¦   ¦           ¦                   ¦       DebugWriter.java
+¦   ¦           ¦                   ¦       Ducks.java
+¦   ¦           ¦                   ¦       FileThread.java
+¦   ¦           ¦                   ¦       LoggerMarkers.java
+¦   ¦           ¦                   ¦       Monitor.java
+¦   ¦           ¦                   ¦       PointerNormalizer.java
+¦   ¦           ¦                   ¦       Scheduler.java
+¦   ¦           ¦                   ¦       ShieldDownloader.java
+¦   ¦           ¦                   ¦       TrajectoriesCalculator.java
+¦   ¦           ¦                   ¦       
+¦   ¦           ¦                   L---virtual
+¦   ¦           ¦                       ¦   Subtickable.java
+¦   ¦           ¦                       ¦   VirtualCameraAngle.java
+¦   ¦           ¦                       ¦   VirtualInput.java
+¦   ¦           ¦                       ¦   VirtualKey.java
+¦   ¦           ¦                       ¦   VirtualKeybindings.java
+¦   ¦           ¦                       ¦   VirtualKeyboard.java
+¦   ¦           ¦                       ¦   VirtualMouse.java
+¦   ¦           ¦                       ¦   VirtualPeripheral.java
+¦   ¦           ¦                       ¦   
+¦   ¦           ¦                       L---event
+¦   ¦           ¦                               VirtualEvent.java
+¦   ¦           ¦                               VirtualKeyboardEvent.java
+¦   ¦           ¦                               VirtualMouseEvent.java
+¦   ¦           ¦                               
+¦   ¦           L---test
+¦   ¦               L---java
+¦   ¦                   +---mctcommon
+¦   ¦                   ¦   ¦   TestConfiguration.java
+¦   ¦                   ¦   ¦   
+¦   ¦                   ¦   +---event
+¦   ¦                   ¦   ¦       EventTest.java
+¦   ¦                   ¦   ¦       
+¦   ¦                   ¦   L---server
+¦   ¦                   ¦           ByteBufferBuilderTest.java
+¦   ¦                   ¦           ServerTest.java
+¦   ¦                   ¦           
+¦   ¦                   L---tasmod
+¦   ¦                       +---networking
+¦   ¦                       ¦       TASmodByteBufferBuilderTest.java
+¦   ¦                       ¦       
+¦   ¦                       +---playback
+¦   ¦                       ¦   +---filecommands
+¦   ¦                       ¦   ¦       PlaybackFileCommandTest.java
+¦   ¦                       ¦   ¦       
+¦   ¦                       ¦   +---metadata
+¦   ¦                       ¦   ¦       PlaybackMetadataRegistryTest.java
+¦   ¦                       ¦   ¦       PlaybackMetadataTest.java
+¦   ¦                       ¦   ¦       
+¦   ¦                       ¦   L---tasfile
+¦   ¦                       ¦       ¦   PlaybackSerialiserTest.java
+¦   ¦                       ¦       ¦   SerialiserFlavorBaseTest.java
+¦   ¦                       ¦       ¦   
+¦   ¦                       ¦       L---builtin
+¦   ¦                       ¦               AlphaFlavorTest.java
+¦   ¦                       ¦               
+¦   ¦                       L---virtual
+¦   ¦                               VirtualCameraAngleTest.java
+¦   ¦                               VirtualInputEventFiring.java
+¦   ¦                               VirtualInputTest.java
+¦   ¦                               VirtualKeyboardTest.java
+¦   ¦                               VirtualMouseTest.java
+¦   ¦                               
+¦   +---spotless-lints
+¦   ¦   L---spotlessJava
+¦   +---test-results
+¦   ¦   L---test
+¦   ¦       ¦   TEST-mctcommon.event.EventTest.xml
+¦   ¦       ¦   TEST-mctcommon.server.ByteBufferBuilderTest.xml
+¦   ¦       ¦   TEST-mctcommon.server.ServerTest.xml
+¦   ¦       ¦   TEST-mctcommon.TestConfiguration.xml
+¦   ¦       ¦   TEST-tasmod.networking.TASmodByteBufferBuilderTest.xml
+¦   ¦       ¦   TEST-tasmod.playback.filecommands.PlaybackFileCommandTest.xml
+¦   ¦       ¦   TEST-tasmod.playback.metadata.PlaybackMetadataRegistryTest.xml
+¦   ¦       ¦   TEST-tasmod.playback.metadata.PlaybackMetadataTest.xml
+¦   ¦       ¦   TEST-tasmod.playback.tasfile.builtin.AlphaFlavorTest.xml
+¦   ¦       ¦   TEST-tasmod.playback.tasfile.PlaybackSerialiserTest.xml
+¦   ¦       ¦   TEST-tasmod.playback.tasfile.SerialiserFlavorBaseTest.xml
+¦   ¦       ¦   TEST-tasmod.virtual.VirtualCameraAngleTest.xml
+¦   ¦       ¦   TEST-tasmod.virtual.VirtualInputEventFiring.xml
+¦   ¦       ¦   TEST-tasmod.virtual.VirtualInputTest.xml
+¦   ¦       ¦   TEST-tasmod.virtual.VirtualKeyboardTest.xml
+¦   ¦       ¦   TEST-tasmod.virtual.VirtualMouseTest.xml
+¦   ¦       ¦   
+¦   ¦       L---binary
+¦   ¦               output.bin
+¦   ¦               output.bin.idx
+¦   ¦               results.bin
+¦   ¦               
+¦   L---tmp
+¦       ¦   spotless-register-dependencies
+¦       ¦   
+¦       +---.cache
+¦       ¦   L---expanded
+¦       ¦       L---zip_6308b4e075e7d67a1f660ee4a5c3df6e
+¦       +---compileJava
+¦       ¦       previous-compilation-data.bin
+¦       ¦       
+¦       +---compileTestJava
+¦       ¦       previous-compilation-data.bin
+¦       ¦       
+¦       +---jar
+¦       ¦       MANIFEST.MF
+¦       ¦       
+¦       +---remapJar
+¦       ¦       MANIFEST.MF
+¦       ¦       
+¦       L---test
++---formatter
+¦       TASmodFormatter.xml
+¦       TASmodImportorder.txt
+¦       
++---gradle
+¦   L---wrapper
+¦           gradle-wrapper.jar
+¦           gradle-wrapper.properties
+¦           
++---logs
+¦       latest.log
+¦       
++---memory
+L---src
+    +---main
+    ¦   +---java
+    ¦   ¦   L---com
+    ¦   ¦       L---minecrafttas
+    ¦   ¦           +---mctcommon
+    ¦   ¦           ¦   ¦   CommandRegistry.java
+    ¦   ¦           ¦   ¦   Configuration.java
+    ¦   ¦           ¦   ¦   ConfigurationRegistry.java
+    ¦   ¦           ¦   ¦   KeybindManager.java
+    ¦   ¦           ¦   ¦   LanguageManager.java
+    ¦   ¦           ¦   ¦   MCTCommon.java
+    ¦   ¦           ¦   ¦   package-info.java
+    ¦   ¦           ¦   ¦   
+    ¦   ¦           ¦   +---events
+    ¦   ¦           ¦   ¦       EventClient.java
+    ¦   ¦           ¦   ¦       EventException.java
+    ¦   ¦           ¦   ¦       EventListenerRegistry.java
+    ¦   ¦           ¦   ¦       EventServer.java
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---file
+    ¦   ¦           ¦   ¦       AbstractDataFile.java
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---mixin
+    ¦   ¦           ¦   ¦       AccessorKeyBinding.java
+    ¦   ¦           ¦   ¦       MixinGameSettings.java
+    ¦   ¦           ¦   ¦       MixinLocale.java
+    ¦   ¦           ¦   ¦       MixinMinecraft.java
+    ¦   ¦           ¦   ¦       MixinMinecraftServer.java
+    ¦   ¦           ¦   ¦       MixinNetHandlerPlayClient.java
+    ¦   ¦           ¦   ¦       MixinPlayerList.java
+    ¦   ¦           ¦   ¦       MixinWorldClient.java
+    ¦   ¦           ¦   ¦       
+    ¦   ¦           ¦   +---networking
+    ¦   ¦           ¦   ¦   ¦   ByteBufferBuilder.java
+    ¦   ¦           ¦   ¦   ¦   Client.java
+    ¦   ¦           ¦   ¦   ¦   CompactPacketHandler.java
+    ¦   ¦           ¦   ¦   ¦   PacketHandlerRegistry.java
+    ¦   ¦           ¦   ¦   ¦   SecureList.java
+    ¦   ¦           ¦   ¦   ¦   Server.java
+    ¦   ¦           ¦   ¦   ¦   
+    ¦   ¦           ¦   ¦   +---exception
+    ¦   ¦           ¦   ¦   ¦       InvalidPacketException.java
+    ¦   ¦           ¦   ¦   ¦       PacketNotImplementedException.java
+    ¦   ¦           ¦   ¦   ¦       WrongSideException.java
+    ¦   ¦           ¦   ¦   ¦       
+    ¦   ¦           ¦   ¦   L---interfaces
+    ¦   ¦           ¦   ¦           ClientPacketHandler.java
+    ¦   ¦           ¦   ¦           PacketHandlerBase.java
+    ¦   ¦           ¦   ¦           PacketID.java
+    ¦   ¦           ¦   ¦           ServerPacketHandler.java
+    ¦   ¦           ¦   ¦           
+    ¦   ¦           ¦   L---registry
+    ¦   ¦           ¦           AbstractRegistry.java
+    ¦   ¦           ¦           Registerable.java
+    ¦   ¦           ¦           
+    ¦   ¦           L---tasmod
+    ¦   ¦               ¦   TASmod.java
+    ¦   ¦               ¦   TASmodClient.java
+    ¦   ¦               ¦   
+    ¦   ¦               +---commands
+    ¦   ¦               ¦   ¦   CommandClearInputs.java
+    ¦   ¦               ¦   ¦   CommandFileCommand.java
+    ¦   ¦               ¦   ¦   CommandFullPlay.java
+    ¦   ¦               ¦   ¦   CommandFullRecord.java
+    ¦   ¦               ¦   ¦   CommandLoadTAS.java
+    ¦   ¦               ¦   ¦   CommandPlay.java
+    ¦   ¦               ¦   ¦   CommandPlayUntil.java
+    ¦   ¦               ¦   ¦   CommandRecord.java
+    ¦   ¦               ¦   ¦   CommandRestartAndPlay.java
+    ¦   ¦               ¦   ¦   CommandSavestate.java
+    ¦   ¦               ¦   ¦   CommandSaveTAS.java
+    ¦   ¦               ¦   ¦   CommandTickrate.java
+    ¦   ¦               ¦   ¦   TabCompletionUtils.java
+    ¦   ¦               ¦   ¦   
+    ¦   ¦               ¦   L---client
+    ¦   ¦               ¦           ClientCommandBase.java
+    ¦   ¦               ¦           ClientCommandRegistry.java
+    ¦   ¦               ¦           CommandFolder.java
+    ¦   ¦               ¦           
+    ¦   ¦               +---events
+    ¦   ¦               ¦       EventClient.java
+    ¦   ¦               ¦       EventNBT.java
+    ¦   ¦               ¦       EventPlaybackClient.java
+    ¦   ¦               ¦       EventSavestate.java
+    ¦   ¦               ¦       EventServer.java
+    ¦   ¦               ¦       EventTickratechanger.java
+    ¦   ¦               ¦       EventVirtualInput.java
+    ¦   ¦               ¦       
+    ¦   ¦               +---gui
+    ¦   ¦               ¦       InfoHud.java
+    ¦   ¦               ¦       
+    ¦   ¦               +---handlers
+    ¦   ¦               ¦       LoadingScreenHandler.java
+    ¦   ¦               ¦       PlayUntilHandler.java
+    ¦   ¦               ¦       
+    ¦   ¦               +---ktrng
+    ¦   ¦               ¦       KillTheRNGHandler.java
+    ¦   ¦               ¦       KTRNGMonitor.java
+    ¦   ¦               ¦       
+    ¦   ¦               +---mixin
+    ¦   ¦               ¦   ¦   MixinEntityPlayer.java
+    ¦   ¦               ¦   ¦   MixinFrustum.java
+    ¦   ¦               ¦   ¦   MixinMinecraft.java
+    ¦   ¦               ¦   ¦   MixinMinecraftServer.java
+    ¦   ¦               ¦   ¦   MixinTextfield.java
+    ¦   ¦               ¦   ¦   MixinTimer.java
+    ¦   ¦               ¦   ¦   
+    ¦   ¦               ¦   +---clientcommands
+    ¦   ¦               ¦   ¦       MixinEntityPlayerSP.java
+    ¦   ¦               ¦   ¦       MixinTabCompleter.java
+    ¦   ¦               ¦   ¦       
+    ¦   ¦               ¦   +---events
+    ¦   ¦               ¦   ¦       MixinEntityPlayerMP.java
+    ¦   ¦               ¦   ¦       MixinGuiIngame.java
+    ¦   ¦               ¦   ¦       MixinNetHandlerPlayClient.java
+    ¦   ¦               ¦   ¦       MixinSaveFormatOld.java
+    ¦   ¦               ¦   ¦       MixinSaveHandler.java
+    ¦   ¦               ¦   ¦       
+    ¦   ¦               ¦   +---fixes
+    ¦   ¦               ¦   ¦       MixinDragonFightManager.java
+    ¦   ¦               ¦   ¦       MixinMinecraftFullscreen.java
+    ¦   ¦               ¦   ¦       MixinMouseHelper.java
+    ¦   ¦               ¦   ¦       MixinNetworkManager.java
+    ¦   ¦               ¦   ¦       
+    ¦   ¦               ¦   +---playbackhooks
+    ¦   ¦               ¦   ¦       MixinEntityRenderer.java
+    ¦   ¦               ¦   ¦       MixinGameSettings.java
+    ¦   ¦               ¦   ¦       MixinGuiChat.java
+    ¦   ¦               ¦   ¦       MixinGuiClickableScrolledSelectionListProxy.java
+    ¦   ¦               ¦   ¦       MixinGuiContainer.java
+    ¦   ¦               ¦   ¦       MixinGuiContainerCreative.java
+    ¦   ¦               ¦   ¦       MixinGuiScreen.java
+    ¦   ¦               ¦   ¦       MixinGuiScreenAdvancements.java
+    ¦   ¦               ¦   ¦       MixinGuiSlot.java
+    ¦   ¦               ¦   ¦       MixinGuiStats.java
+    ¦   ¦               ¦   ¦       MixinKeyBinding.java
+    ¦   ¦               ¦   ¦       MixinMinecraft.java
+    ¦   ¦               ¦   ¦       
+    ¦   ¦               ¦   +---savestates
+    ¦   ¦               ¦   ¦       AccessorAnvilChunkLoader.java
+    ¦   ¦               ¦   ¦       AccessorChunkLoader.java
+    ¦   ¦               ¦   ¦       AccessorEntityLivingBase.java
+    ¦   ¦               ¦   ¦       MixinChunkProviderClient.java
+    ¦   ¦               ¦   ¦       MixinChunkProviderServer.java
+    ¦   ¦               ¦   ¦       MixinNetHandlerPlayServer.java
+    ¦   ¦               ¦   ¦       MixinPlayerChunkMap.java
+    ¦   ¦               ¦   ¦       MixinScoreboard.java
+    ¦   ¦               ¦   ¦       MixinWorldClient.java
+    ¦   ¦               ¦   ¦       
+    ¦   ¦               ¦   L---shields
+    ¦   ¦               ¦           MixinRenderItem.java
+    ¦   ¦               ¦           MixinTileEntityItemStackRenderer.java
+    ¦   ¦               ¦           
+    ¦   ¦               +---networking
+    ¦   ¦               ¦       TASmodBufferBuilder.java
+    ¦   ¦               ¦       
+    ¦   ¦               +---playback
+    ¦   ¦               ¦   ¦   PlaybackControllerClient.java
+    ¦   ¦               ¦   ¦   PlaybackControllerServer.java
+    ¦   ¦               ¦   ¦   
+    ¦   ¦               ¦   +---filecommands
+    ¦   ¦               ¦   ¦   ¦   PlaybackFileCommand.java
+    ¦   ¦               ¦   ¦   ¦   PlaybackFileCommandsRegistry.java
+    ¦   ¦               ¦   ¦   ¦   
+    ¦   ¦               ¦   ¦   L---builtin
+    ¦   ¦               ¦   ¦           DesyncMonitorFileCommandExtension.java
+    ¦   ¦               ¦   ¦           LabelFileCommandExtension.java
+    ¦   ¦               ¦   ¦           OptionsFileCommandExtension.java
+    ¦   ¦               ¦   ¦           
+    ¦   ¦               ¦   +---metadata
+    ¦   ¦               ¦   ¦   ¦   PlaybackMetadata.java
+    ¦   ¦               ¦   ¦   ¦   PlaybackMetadataRegistry.java
+    ¦   ¦               ¦   ¦   ¦   
+    ¦   ¦               ¦   ¦   L---builtin
+    ¦   ¦               ¦   ¦           CreditsMetadataExtension.java
+    ¦   ¦               ¦   ¦           StartpositionMetadataExtension.java
+    ¦   ¦               ¦   ¦           
+    ¦   ¦               ¦   L---tasfile
+    ¦   ¦               ¦       ¦   PlaybackSerialiser.java
+    ¦   ¦               ¦       ¦   
+    ¦   ¦               ¦       +---exception
+    ¦   ¦               ¦       ¦       PlaybackLoadException.java
+    ¦   ¦               ¦       ¦       PlaybackSaveException.java
+    ¦   ¦               ¦       ¦       
+    ¦   ¦               ¦       L---flavor
+    ¦   ¦               ¦           ¦   SerialiserFlavorBase.java
+    ¦   ¦               ¦           ¦   SerialiserFlavorRegistry.java
+    ¦   ¦               ¦           ¦   
+    ¦   ¦               ¦           L---builtin
+    ¦   ¦               ¦                   AlphaFlavor.java
+    ¦   ¦               ¦                   Beta1Flavor.java
+    ¦   ¦               ¦                   
+    ¦   ¦               +---registries
+    ¦   ¦               ¦       TASmodAPIRegistry.java
+    ¦   ¦               ¦       TASmodConfig.java
+    ¦   ¦               ¦       TASmodKeybinds.java
+    ¦   ¦               ¦       TASmodPackets.java
+    ¦   ¦               ¦       
+    ¦   ¦               +---savestates
+    ¦   ¦               ¦   ¦   SavestateHandlerClient.java
+    ¦   ¦               ¦   ¦   SavestateHandlerServer.java
+    ¦   ¦               ¦   ¦   
+    ¦   ¦               ¦   +---exceptions
+    ¦   ¦               ¦   ¦       LoadstateException.java
+    ¦   ¦               ¦   ¦       SavestateDeleteException.java
+    ¦   ¦               ¦   ¦       SavestateException.java
+    ¦   ¦               ¦   ¦       
+    ¦   ¦               ¦   +---files
+    ¦   ¦               ¦   ¦       SavestateDataFile.java
+    ¦   ¦               ¦   ¦       SavestateTrackerFile.java
+    ¦   ¦               ¦   ¦       
+    ¦   ¦               ¦   +---gui
+    ¦   ¦               ¦   ¦       GuiSavestateLoadingScreen.java
+    ¦   ¦               ¦   ¦       GuiSavestateSavingScreen.java
+    ¦   ¦               ¦   ¦       
+    ¦   ¦               ¦   +---handlers
+    ¦   ¦               ¦   ¦       SavestatePlayerHandler.java
+    ¦   ¦               ¦   ¦       SavestateWorldHandler.java
+    ¦   ¦               ¦   ¦       
+    ¦   ¦               ¦   L---storage
+    ¦   ¦               ¦       ¦   AbstractExtendStorage.java
+    ¦   ¦               ¦       ¦   package-info.java
+    ¦   ¦               ¦       ¦   
+    ¦   ¦               ¦       L---builtin
+    ¦   ¦               ¦               SavestateMotionStorage.java
+    ¦   ¦               ¦               
+    ¦   ¦               +---tickratechanger
+    ¦   ¦               ¦       TickrateChangerClient.java
+    ¦   ¦               ¦       TickrateChangerServer.java
+    ¦   ¦               ¦       
+    ¦   ¦               +---ticksync
+    ¦   ¦               ¦       TickSyncClient.java
+    ¦   ¦               ¦       TickSyncServer.java
+    ¦   ¦               ¦       
+    ¦   ¦               +---util
+    ¦   ¦               ¦       DebugWriter.java
+    ¦   ¦               ¦       Ducks.java
+    ¦   ¦               ¦       FileThread.java
+    ¦   ¦               ¦       LoggerMarkers.java
+    ¦   ¦               ¦       Monitor.java
+    ¦   ¦               ¦       PointerNormalizer.java
+    ¦   ¦               ¦       Scheduler.java
+    ¦   ¦               ¦       ShieldDownloader.java
+    ¦   ¦               ¦       TrajectoriesCalculator.java
+    ¦   ¦               ¦       
+    ¦   ¦               L---virtual
+    ¦   ¦                   ¦   Subtickable.java
+    ¦   ¦                   ¦   VirtualCameraAngle.java
+    ¦   ¦                   ¦   VirtualInput.java
+    ¦   ¦                   ¦   VirtualKey.java
+    ¦   ¦                   ¦   VirtualKeybindings.java
+    ¦   ¦                   ¦   VirtualKeyboard.java
+    ¦   ¦                   ¦   VirtualMouse.java
+    ¦   ¦                   ¦   VirtualPeripheral.java
+    ¦   ¦                   ¦   
+    ¦   ¦                   L---event
+    ¦   ¦                           VirtualEvent.java
+    ¦   ¦                           VirtualKeyboardEvent.java
+    ¦   ¦                           VirtualMouseEvent.java
+    ¦   ¦                           
+    ¦   L---resources
+    ¦       ¦   fabric.mod.json
+    ¦       ¦   log4j.xml
+    ¦       ¦   mctcommon.mixin.json
+    ¦       ¦   tasmod.accesswidener
+    ¦       ¦   tasmod.mixin.json
+    ¦       ¦   
+    ¦       L---assets
+    ¦           L---tasmod
+    ¦               +---lang
+    ¦               ¦       en_us.json
+    ¦               ¦       
+    ¦               L---textures
+    ¦                   ¦   potion.png
+    ¦                   ¦   potion2.png
+    ¦                   ¦   
+    ¦                   L---shields
+    ¦                           bottleshield.png
+    ¦                           
+    L---test
+        +---java
+        ¦   +---mctcommon
+        ¦   ¦   ¦   TestConfiguration.java
+        ¦   ¦   ¦   
+        ¦   ¦   +---event
+        ¦   ¦   ¦       EventTest.java
+        ¦   ¦   ¦       
+        ¦   ¦   L---server
+        ¦   ¦           ByteBufferBuilderTest.java
+        ¦   ¦           ServerTest.java
+        ¦   ¦           
+        ¦   L---tasmod
+        ¦       +---networking
+        ¦       ¦       TASmodByteBufferBuilderTest.java
+        ¦       ¦       
+        ¦       +---playback
+        ¦       ¦   +---filecommands
+        ¦       ¦   ¦       PlaybackFileCommandTest.java
+        ¦       ¦   ¦       
+        ¦       ¦   +---metadata
+        ¦       ¦   ¦       PlaybackMetadataRegistryTest.java
+        ¦       ¦   ¦       PlaybackMetadataTest.java
+        ¦       ¦   ¦       
+        ¦       ¦   L---tasfile
+        ¦       ¦       ¦   PlaybackSerialiserTest.java
+        ¦       ¦       ¦   SerialiserFlavorBaseTest.java
+        ¦       ¦       ¦   
+        ¦       ¦       L---builtin
+        ¦       ¦               AlphaFlavorTest.java
+        ¦       ¦               
+        ¦       L---virtual
+        ¦               VirtualCameraAngleTest.java
+        ¦               VirtualInputEventFiring.java
+        ¦               VirtualInputTest.java
+        ¦               VirtualKeyboardTest.java
+        ¦               VirtualMouseTest.java
+        ¦               
+        L---resources
+            +---betaflavor
+            ¦       .gitkeep
+            ¦       
+            +---metadata
+            ¦       .gitkeep
+            ¦       
+            +---serialiser
+            ¦       .gitkeep
+            ¦       
+            L---temp
